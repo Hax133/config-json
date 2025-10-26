@@ -564,7 +564,7 @@ SimulatorJsonHelper::InstallMobility(std::shared_ptr<NodeJson> nodeJson)
         }
         else if (mob->GetType() == "gazebo")
         {
-            mobility.SetMobilityModel("ns3::WayPointMobilityModel");
+            mobility.SetMobilityModel("ns3::WaypointMobilityModel");
         }
         mobility.Install(node);
     }

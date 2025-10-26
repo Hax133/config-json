@@ -1,0 +1,18 @@
+[
+  {
+    "nodeId": 0,
+    "role": "adhoc"
+  },
+  {
+    "nodeId": 1,
+    "role": "adhoc"
+  },
+  {
+    "nodeId": 2,
+    "role": "adhoc"
+  },
+  {
+    "nodeId": 3,
+    "role": "adhoc"
+  }
+]

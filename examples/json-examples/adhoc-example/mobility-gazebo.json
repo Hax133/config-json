@@ -1,0 +1,54 @@
+[
+  {
+    "nodeId": 0,
+    "type":"gazebo",
+    "positionAllocator": {
+      "type": "GridPositionAllocator",
+      "minX": 0.0,
+      "minY": 0.0,
+      "deltaX": 10.0,
+      "deltaY": 10.0,
+      "gridWidth": 2,
+      "layoutType": "RowFirst"
+    }
+  },
+  {
+    "nodeId": 1,
+    "type":"gazebo",
+    "positionAllocator": {
+      "type": "GridPositionAllocator",
+      "minX": 0.0,
+      "minY": 10.0,
+      "deltaX": 10.0,
+      "deltaY": 10.0,
+      "gridWidth": 2,
+      "layoutType": "RowFirst"
+    }
+  },
+  {
+    "nodeId": 2,
+    "type":"gazebo",
+    "positionAllocator": {
+      "type": "GridPositionAllocator",
+      "minX": 0.0,
+      "minY": 20.0,
+      "deltaX": 10.0,
+      "deltaY": 10.0,
+      "gridWidth": 2,
+      "layoutType": "RowFirst"
+    }
+  },
+  {
+    "nodeId": 3,
+    "type":"gazebo",
+    "positionAllocator": {
+      "type": "GridPositionAllocator",
+      "minX": 0.0,
+      "minY": 30.0,
+      "deltaX": 10.0,
+      "deltaY": 10.0,
+      "gridWidth": 2,
+      "layoutType": "RowFirst"
+    }
+  }
+]

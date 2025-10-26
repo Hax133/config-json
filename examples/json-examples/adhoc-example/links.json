@@ -1,0 +1,74 @@
+[
+  {
+    "linkId": 0,
+    "type": "wifi",
+    "netDevices": [
+      {
+        "nodeId": 0,
+        "wifiPhy": {
+          "txPowerStart": 20.0,
+          "txPowerEnd": 20.0,
+          "rxSensitivity": -92.0,
+          "ccaEdThreshold": -62.0
+        },
+        "wifiMac": {
+          "type": "AdhocWifiMac",
+          "ssid": "ssid1"
+        }
+      },
+      {
+        "nodeId": 1,
+        "wifiPhy": {
+          "txPowerStart": 20.0,
+          "txPowerEnd": 20.0,
+          "rxSensitivity": -92.0,
+          "ccaEdThreshold": -62.0
+        },
+        "wifiMac": {
+          "type": "AdhocWifiMac",
+          "ssid": "ssid2"
+        }
+      },
+      {
+        "nodeId": 2,
+        "wifiPhy": {
+          "txPowerStart": 20.0,
+          "txPowerEnd": 20.0,
+          "rxSensitivity": -92.0,
+          "ccaEdThreshold": -62.0
+        },
+        "wifiMac": {
+          "type": "AdhocWifiMac",
+          "ssid": "ssid1"
+        }
+      },
+      {
+        "nodeId": 3,
+        "wifiPhy": {
+          "txPowerStart": 20.0,
+          "txPowerEnd": 20.0,
+          "rxSensitivity": -92.0,
+          "ccaEdThreshold": -62.0
+        },
+        "wifiMac": {
+          "type": "AdhocWifiMac",
+          "ssid": "ssid1"
+        }
+      }
+    ],
+    "wifiChannel": {
+      "type": "SpectrumWifiChannel",
+      "propagationLoss": "ns3::FriisPropagationLossModel",
+      "propagationDelay": "ns3::ConstantSpeedPropagationDelayModel"
+    },
+    "wifiStandard": "WIFI_STANDARD_80211a",
+    "channelSettings": "{36, 20, BAND_5GHZ, 0}",
+    "errorRateModel": "ns3::YansErrorRateModel",
+    "qosSupported": false,
+    "wifiManager": {
+      "type": "ns3::ConstantRateWifiManager",
+      "dataMode": "OfdmRate54Mbps",
+      "controlMode": "OfdmRate54Mbps"
+    }
+  }
+]

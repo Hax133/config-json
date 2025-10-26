@@ -1,0 +1,70 @@
+[
+  {
+    "nodeId": 0,
+    "type":"ns3",
+    "positionAllocator": {
+      "type": "ListPositionAllocator",
+      "positions":[
+        {
+          "x":0,
+          "y":0,
+          "z":0
+        }
+      ]
+    },
+    "mobilityModel": {
+      "type": "ConstantPositionMobilityModel"
+    }
+  },
+  {
+    "nodeId": 1,
+    "type":"ns3",
+    "positionAllocator": {
+      "type": "ListPositionAllocator",
+      "positions":[
+        {
+          "x":10,
+          "y":0,
+          "z":0
+        }
+      ]
+    },
+    "mobilityModel": {
+      "type": "ConstantPositionMobilityModel"
+    }
+  },
+  {
+    "nodeId": 2,
+    "type":"ns3",
+    "positionAllocator": {
+     "type": "ListPositionAllocator",
+      "positions":[
+        {
+          "x":20,
+          "y":0,
+          "z":0
+        }
+      ]
+    },
+    "mobilityModel": {
+      "type": "ConstantPositionMobilityModel"
+    }
+  },
+  {
+    "nodeId": 3,
+    "type":"ns3",
+    "positionAllocator": {
+      "type": "ListPositionAllocator",
+      "positions":[
+        {
+          "x":30,
+          "y":0,
+          "z":0
+        }
+      ]
+    },
+    "mobilityModel": {
+      "type": "ConstantPositionMobilityModel"
+    }
+  }
+]

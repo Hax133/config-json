@@ -1,0 +1,180 @@
+[
+  {
+    "linkId": 0,
+    "type": "p2p",
+    "netDevices": [
+      {
+        "nodeId": 0
+      },
+      {
+        "nodeId": 1
+      }
+    ],
+    "dataRate": "100Mbps",
+    "delay": "2ms",
+    "mtu": 1500,
+    "interframeGap": "1ns",
+    "queue": {
+      "type": "ns3::DropTailQueue",
+      "mode": "PACKETS",
+      "maxPackets": 100
+    }
+  },
+  {
+    "linkId": 1,
+    "type": "p2p",
+    "netDevices": [
+      {
+        "nodeId": 1
+      },
+      {
+        "nodeId": 2
+      }
+    ],
+    "dataRate": "100Mbps",
+    "delay": "2ms",
+    "mtu": 1500,
+    "interframeGap": "1ns",
+    "queue": {
+      "type": "ns3::DropTailQueue",
+      "mode": "PACKETS",
+      "maxPackets": 100
+    }
+  },
+  {
+    "linkId": 3,
+    "type": "csma",
+    "netDevices": [
+      {
+        "nodeId": 2
+      },
+      {
+        "nodeId": 3
+      }
+    ],
+    "dataRate": "100Mbps",
+    "delay": "6560ns",
+    "mtu": 1500,
+    "interframeGap": "1ns",
+    "queue": {
+      "type": "ns3::DropTailQueue",
+      "mode": "PACKETS",
+      "maxPackets": 100
+    }
+  },
+  {
+    "linkId": 4,
+    "type": "csma",
+    "netDevices": [
+      {
+        "nodeId": 4
+      },
+      {
+        "nodeId": 3
+      }
+    ],
+    "dataRate": "100Mbps",
+    "delay": "6560ns",
+    "mtu": 1500,
+    "interframeGap": "1ns",
+    "queue": {
+      "type": "ns3::DropTailQueue",
+      "mode": "PACKETS",
+      "maxPackets": 100
+    }
+  },
+  {
+    "linkId": 5,
+    "type": "wifi",
+    "netDevices": [
+      {
+        "nodeId": 0,
+        "wifiPhy": {
+          "txPowerStart": 20.0,
+          "txPowerEnd": 20.0,
+          "rxSensitivity": -92.0,
+          "ccaEdThreshold": -82.0
+        },
+        "wifiMac": {
+          "type": "ApWifiMac",
+          "ssid": "ssid1",
+          "beaconInterval": "102.4ms"
+        }
+      },
+      {
+        "nodeId": 5,
+        "wifiPhy": {
+          "txPowerStart": 20.0,
+          "txPowerEnd": 20.0,
+          "rxSensitivity": -92.0,
+          "ccaEdThreshold": -82.0
+        },
+        "wifiMac": {
+          "type": "StaWifiMac",
+          "ssid": "ssid1",
+          "activeProbing": true
+        }
+      }
+    ],
+    "wifiChannel": {
+      "type": "YansWifiChannel",
+      "propagationLoss": "ns3::FriisPropagationLossModel",
+      "propagationDelay": "ns3::ConstantSpeedPropagationDelayModel"
+    },
+    "wifiStandard": "WIFI_STANDARD_80211a",
+    "channelSettings": "{36, 20, BAND_5GHZ, 0}",
+    "errorRateModel": "ns3::YansErrorRateModel",
+    "qosSupported": false,
+    "wifiManager": {
+      "type": "ns3::ConstantRateWifiManager",
+      "dataMode": "OfdmRate54Mbps",
+      "controlMode": "OfdmRate54Mbps"
+    }
+  },
+  {
+    "linkId": 6,
+    "type": "wifi",
+    "netDevices": [
+      {
+        "nodeId": 0,
+        "wifiPhy": {
+          "txPowerStart": 20.0,
+          "txPowerEnd": 20.0,
+          "rxSensitivity": -92.0,
+          "ccaEdThreshold": -82.0
+        },
+        "wifiMac": {
+          "type": "AdhocWifiMac",
+          "ssid": "ssid3"
+        }
+      },
+      {
+        "nodeId": 6,
+        "wifiPhy": {
+          "txPowerStart": 20.0,
+          "txPowerEnd": 20.0,
+          "rxSensitivity": -92.0,
+          "ccaEdThreshold": -82.0
+        },
+        "wifiMac": {
+          "type": "AdhocWifiMac",
+          "ssid": "ssid3"
+        }
+      }
+    ],
+    "wifiChannel": {
+      "type": "YansWifiChannel",
+      "propagationLoss": "ns3::FriisPropagationLossModel",
+      "propagationDelay": "ns3::ConstantSpeedPropagationDelayModel"
+    },
+    "wifiStandard": "WIFI_STANDARD_80211a",
+    "channelSettings": "{48, 20, BAND_5GHZ, 0}",
+    "errorRateModel": "ns3::YansErrorRateModel",
+    "qosSupported": false,
+    "wifiManager": {
+      "type": "ns3::ConstantRateWifiManager",
+      "dataMode": "OfdmRate54Mbps",
+      "controlMode": "OfdmRate54Mbps"
+    }
+  }
+]

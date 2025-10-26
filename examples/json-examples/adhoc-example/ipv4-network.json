@@ -1,0 +1,26 @@
+[
+    {
+        "subnet": "10.0.0.0",
+        "mask": "255.255.255.0",
+        "base": "0.0.0.1",
+        "netDeviceIds": [
+            {
+                "nodeId": 0,
+                "linkId": 0
+            },
+            {
+                "nodeId": 1,
+                "linkId": 0
+            },
+            {
+                "nodeId": 2,
+                "linkId": 0
+            },
+            {
+                "nodeId": 3,
+                "linkId": 0
+            }
+        ],
+        "fixed": []
+    }
+]

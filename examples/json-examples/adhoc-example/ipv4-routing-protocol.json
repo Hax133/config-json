@@ -1,0 +1,58 @@
+[
+    {
+        "nodeId": 0,
+        "ipv4RoutingList": [
+            {
+                "type": "Olsr",
+                "priority": 10,
+                "helloInterval": "2s",
+                "tcInterval": "5s",
+                "hnaInterval": "5s",
+                "willingness": 3,
+                "hnaNetworks": []
+            }
+        ]
+    },
+    {
+        "nodeId": 1,
+        "ipv4RoutingList": [
+            {
+                "type": "Olsr",
+                "priority": 10,
+                "helloInterval": "2s",
+                "tcInterval": "5s",
+                "hnaInterval": "5s",
+                "willingness": 3,
+                "hnaNetworks": []
+            }
+        ]
+    },
+    {
+        "nodeId": 2,
+        "ipv4RoutingList": [
+            {
+                "type": "Olsr",
+                "priority": 10,
+                "helloInterval": "2s",
+                "tcInterval": "5s",
+                "hnaInterval": "5s",
+                "willingness": 3,
+                "hnaNetworks": []
+            }
+        ]
+    },
+    {
+        "nodeId": 3,
+        "ipv4RoutingList": [
+            {
+                "type": "Olsr",
+                "priority": 10,
+                "helloInterval": "2s",
+                "tcInterval": "5s",
+                "hnaInterval": "5s",
+                "willingness": 3,
+                "hnaNetworks": []
+            }
+        ]
+    }
+]

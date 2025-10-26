@@ -1,0 +1,72 @@
+[
+    {
+        "nodeId": 4,
+        "applicationId": 0,
+        "type": "onOff",
+        "socket": {
+            "type": "ipv4",
+            "netDeviceId": {
+                "nodeId": 5,
+                "linkId": 5
+            },
+            "port": 5000
+        },
+        "startTime": "0.5s",
+        "stopTime": "40.0s",
+        "protocol": "ns3::UdpSocketFactory",
+        "packetSize": 1024,
+        "dataRate": "500Kbps"
+    },
+    {
+        "nodeId": 4,
+        "applicationId": 1,
+        "type": "udpEchoServer",
+        "socket": {
+            "type": "ipv4",
+            "port": 9
+        },
+        "startTime": "0.5s",
+        "stopTime": "40.0s"
+    },
+    {
+        "nodeId": 5,
+        "applicationId": 0,
+        "type": "packetSink",
+        "socket": {
+            "type": "ipv4",
+            "port": 5000
+        },
+        "startTime": "0.5s",
+        "stopTime": "40.0s",
+        "protocol": "ns3::UdpSocketFactory"
+    },
+    {
+        "nodeId": 5,
+        "applicationId": 1,
+        "type": "udpEchoServer",
+        "socket": {
+            "type": "ipv4",
+            "port": 9
+        },
+        "startTime": "0.5s",
+        "stopTime": "40.0s"
+    },
+    {
+        "nodeId": 6,
+        "applicationId": 0,
+        "type": "udpEchoClient",
+        "socket": {
+            "type": "ipv4",
+            "netDeviceId": {
+                "nodeId": 5,
+                "linkId": 5
+            },
+            "port": 9
+        },
+        "startTime": "0.5s",
+        "stopTime": "40.0s",
+        "packetSize": 1024,
+        "maxPackets": 500,
+        "interval": "0.1s"
+    }
+]

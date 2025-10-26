@@ -1,0 +1,15 @@
+{
+  "simName": "adhoc-example",
+  "info": "由4个adhoc节点构成的一个wifi网络",
+  "file":{
+    "nodes": "nodes.json",
+    "links": "links.json",
+    "internetStack": "internet-stack.json",
+    "ipv4Network": "ipv4-network.json",
+    "ipv6Network": "ipv6-network.json",
+    "ipv4RoutingProtocol":"ipv4-routing-protocol.json",
+    "ipv6RoutingProtocol":"ipv6-routing-protocol.json",
+    "mobility": "mobility-ns3.json",
+    "applications": "applications.json"
+  }
+}

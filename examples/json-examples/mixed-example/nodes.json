@@ -1,0 +1,30 @@
+[
+  {
+    "nodeId": 0,
+    "role": "gateway"
+  },
+  {
+    "nodeId": 1,
+    "role": "router"
+  },
+  {
+    "nodeId": 2,
+    "role": "router"
+  },
+  {
+    "nodeId": 3,
+    "role": "switch"
+  },
+  {
+    "nodeId": 4,
+    "role": "terminal"
+  },
+  {
+    "nodeId": 5,
+    "role": "terminal"
+  },
+  {
+    "nodeId": 6,
+    "role": "adhoc"
+  }
+]

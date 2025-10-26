@@ -1,0 +1,15 @@
+{
+  "simName": "mixed-example",
+  "info": "info.md",
+  "file":{
+    "nodes": "nodes.json",
+    "links": "links.json",
+    "internetStack": "internet-stack.json",
+    "ipv4Network": "ipv4-network.json",
+    "ipv6Network": "ipv6-network.json",
+    "ipv4RoutingProtocol":"ipv4-routing-protocol.json",
+    "ipv6RoutingProtocol":"ipv6-routing-protocol.json",
+    "mobility": "mobility.json",
+    "applications": "applications.json"
+  }
+}

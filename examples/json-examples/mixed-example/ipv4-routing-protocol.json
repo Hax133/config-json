@@ -1,0 +1,139 @@
+[
+    {
+        "nodeId": 0,
+        "ipv4RoutingList": [
+            {
+                "type": "Static",
+                "priority": 15,
+                "routes": [
+                    {
+                        "ipv4Address": "0.0.0.0",
+                        "mask": "0.0.0.0",
+                        "nextHop": "10.0.0.2",
+                        "nextLinkId": 0
+                    }
+                ]
+            },
+            {
+                "type": "Olsr",
+                "priority": 10,
+                "helloInterval": "2s",
+                "tcInterval": "5s",
+                "hnaInterval": "5s",
+                "willingness": 3,
+                "hnaNetworks": [
+                    {
+                        "network": "0.0.0.0",
+                        "mask": "0.0.0.0"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nodeId": 1,
+        "ipv4RoutingList": [
+            {
+                "type": "Static",
+                "priority": 10,
+                "routes": [
+                    {
+                        "ipv4Address": "10.0.1.0",
+                        "mask": "255.255.255.0",
+                        "nextHop": "10.0.4.2",
+                        "nextLinkId": 1
+                    },
+                    {
+                        "ipv4Address": "10.0.2.0",
+                        "mask": "255.255.255.0",
+                        "nextHop": "10.0.0.1",
+                        "nextLinkId": 0
+                    },
+                    {
+                        "ipv4Address": "10.0.3.0",
+                        "mask": "255.255.255.0",
+                        "nextHop": "10.0.0.1",
+                        "nextLinkId": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nodeId": 2,
+        "ipv4RoutingList": [
+            {
+                "type": "Static",
+                "priority": 10,
+                "routes": [
+                    {
+                        "ipv4Address": "10.0.0.0",
+                        "mask": "255.255.255.0",
+                        "nextHop": "10.0.4.1",
+                        "nextLinkId": 1
+                    },
+                    {
+                        "ipv4Address": "10.0.2.0",
+                        "mask": "255.255.255.0",
+                        "nextHop": "10.0.4.1",
+                        "nextLinkId": 1
+                    },
+                    {
+                        "ipv4Address": "10.0.3.0",
+                        "mask": "255.255.255.0",
+                        "nextHop": "10.0.4.1",
+                        "nextLinkId": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nodeId": 4,
+        "ipv4RoutingList": [
+            {
+                "type": "Static",
+                "priority": 10,
+                "routes": [
+                    {
+                        "ipv4Address": "0.0.0.0",
+                        "mask": "0.0.0.0",
+                        "nextHop": "10.0.1.1",
+                        "nextLinkId": 4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nodeId": 5,
+        "ipv4RoutingList": [
+            {
+                "type": "Static",
+                "priority": 10,
+                "routes": [
+                    {
+                        "ipv4Address": "0.0.0.0",
+                        "mask": "0.0.0.0",
+                        "nextHop": "10.0.2.1",
+                        "nextLinkId": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nodeId": 6,
+        "ipv4RoutingList": [
+            {
+                "type": "Olsr",
+                "priority": 15,
+                "helloInterval": "2s",
+                "tcInterval": "5s",
+                "hnaInterval": "5s",
+                "willingness": 3,
+                "hnaNetworks": []
+            }
+        ]
+    }
+]

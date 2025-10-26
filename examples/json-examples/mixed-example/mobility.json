@@ -1,0 +1,50 @@
+[
+  {
+    "nodeId": 0,
+    "type":"ns3",
+    "positionAllocator": {
+      "type": "GridPositionAllocator",
+      "minX": 0.0,
+      "minY": 10.0,
+      "deltaX": 10.0,
+      "deltaY": 10.0,
+      "gridWidth": 2,
+      "layoutType": "RowFirst"
+    },
+    "mobilityModel": {
+      "type": "ConstantPositionMobilityModel"
+    }
+  },
+  {
+    "nodeId": 5,
+    "type":"ns3",
+    "positionAllocator": {
+      "type": "GridPositionAllocator",
+      "minX": 0.0,
+      "minY": 0.0,
+      "deltaX": 10.0,
+      "deltaY": 10.0,
+      "gridWidth": 2,
+      "layoutType": "RowFirst"
+    },
+     "mobilityModel": {
+      "type": "ConstantPositionMobilityModel"
+    }
+  },
+  {
+    "nodeId": 6,
+    "type":"ns3",
+    "positionAllocator": {
+      "type": "GridPositionAllocator",
+      "minX": 10.0,
+      "minY": 0.0,
+      "deltaX": 10.0,
+      "deltaY": 10.0,
+      "gridWidth": 2,
+      "layoutType": "RowFirst"
+    },
+     "mobilityModel": {
+      "type": "ConstantPositionMobilityModel"
+    }
+  }
+]

@@ -1,0 +1,49 @@
+{
+    "ipv4": {
+        "defaultTtl": 64,
+        "ipForward": true,
+        "weakEsModel": false,
+        "sendIcmpRedirect": true,
+        "enableMtuDiscovery": false,
+        "fragmentExpirationTimeout": "30s",
+        "mtuDiscoverTimeout": "10s",
+        "routeCacheTimeout": "300s",
+        "enableChecksum": true
+    },
+    "ipv6": {
+        "defaultTtl": 64,
+        "ipForward": true,
+        "sendIcmpv6Redirect": true,
+        "enableMtuDiscovery": false,
+        "fragmentExpirationTimeout": "30s",
+        "mtuDiscoverTimeout": "10s",
+        "routeCacheTimeout": "300s",
+        "enableChecksum": true,
+        "disableIcmpv6": false,
+        "enableNdCache": true
+    },
+    "tcp": {
+        "sendBufferSize": 65536,
+        "receiveBufferSize": 65536,
+        "variant": "TcpNewReno",
+        "initialCwnd": 1,
+        "segmentSize": 536,
+        "maxCwnd": 1000,
+        "slowStartThreshold": 65536,
+        "retransmitTimeout": 200,
+        "enableSack": true,
+        "enableDelayedAck": true,
+        "enableNagle": false,
+        "enableKeepAlive": false
+    },
+    "udp": {
+        "sendBufferSize": 65536,
+        "receiveBufferSize": 65536,
+        "packetSize": 1024,
+        "dataRate": "1Mbps",
+        "enableChecksum": true,
+        "enableBroadcast": false,
+        "enableMulticast": false
+    },
+    "enableGlobalRouting" : false
+}

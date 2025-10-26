@@ -1,0 +1,19 @@
+[
+    {
+        "nodeId": 0,
+        "ipv6RoutingList": [
+            {
+                "type": "Static",
+                "priority": 15,
+                "routes": [
+                    {
+                        "dest": "2001:db8:1::2",
+                        "prefixLength": 64,
+                        "nextHop": "fe80::1",
+                        "nextLinkId": 0
+                    }
+                ]
+            }
+        ]
+    }
+]

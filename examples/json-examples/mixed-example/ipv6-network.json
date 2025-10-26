@@ -1,0 +1,17 @@
+[
+    {
+        "subnet": "2001:db8::",
+        "prefixLength": 64,
+        "base": "::2",
+        "netDevicesIds": [],
+        "fixed": [
+            {
+                "ipv6Address": "2001:db8::1",
+                "netDeviceId": {
+                    "nodeId": 0,
+                    "linkId": 0
+                }
+            }
+        ]
+    }
+]

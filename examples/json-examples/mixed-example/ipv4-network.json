@@ -1,0 +1,106 @@
+[
+    {
+        "subnet": "10.0.0.0",
+        "mask": "255.255.255.0",
+        "base": "0.0.0.3",
+        "netDeviceIds": [],
+        "fixed": [
+            {
+                "ipv4Address": "10.0.0.1",
+                "netDeviceId": {
+                    "nodeId": 0,
+                    "linkId": 0
+                }
+            },
+            {
+                "ipv4Address": "10.0.0.2",
+                "netDeviceId": {
+                    "nodeId": 1,
+                    "linkId": 0
+                }
+            }
+        ]
+    },
+    {
+        "subnet": "10.0.1.0",
+        "mask": "255.255.255.0",
+        "base": "0.0.0.2",
+        "netDeviceIds": [
+            {
+                "nodeId": 4,
+                "linkId": 4
+            }
+        ],
+        "fixed": [
+            {
+                "ipv4Address": "10.0.1.1",
+                "netDeviceId": {
+                    "nodeId": 2,
+                    "linkId": 3
+                }
+            }
+        ]
+    },
+    {
+        "subnet": "10.0.2.0",
+        "mask": "255.255.255.0",
+        "base": "0.0.0.2",
+        "netDeviceIds": [
+            {
+                "nodeId": 5,
+                "linkId": 5
+            }
+        ],
+        "fixed": [
+            {
+                "ipv4Address": "10.0.2.1",
+                "netDeviceId": {
+                    "nodeId": 0,
+                    "linkId": 5
+                }
+            }
+        ]
+    },
+    {
+        "subnet": "10.0.3.0",
+        "mask": "255.255.255.0",
+        "base": "0.0.0.2",
+        "netDeviceIds": [
+            {
+                "nodeId": 6,
+                "linkId": 6
+            }
+        ],
+        "fixed": [
+            {
+                "ipv4Address": "10.0.3.1",
+                "netDeviceId": {
+                    "nodeId": 0,
+                    "linkId": 6
+                }
+            }
+        ]
+    },
+    {
+        "subnet": "10.0.4.0",
+        "mask": "255.255.255.0",
+        "base": "0.0.0.3",
+        "netDeviceIds": [],
+        "fixed": [
+            {
+                "ipv4Address": "10.0.4.1",
+                "netDeviceId": {
+                    "nodeId": 1,
+                    "linkId": 1
+                }
+            },
+            {
+                "ipv4Address": "10.0.4.2",
+                "netDeviceId": {
+                    "nodeId": 2,
+                    "linkId": 1
+                }
+            }
+        ]
+    }
+]
